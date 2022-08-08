@@ -1,0 +1,74 @@
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.6;
+  text-align: center;
+  color: #926239;
+  background-color: #926239;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Heder */
+.section {
+  padding: 0 20px;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../beachshowcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.text-title {
+  font-size: 20px;
+}
+
+.button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #926239;
+  border: #926239 solid 1px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #926239;
+  color: #fff;
+}
+
+/* main */
+.bgdark {
+  padding: 20px;
+color: #fff;
+}
+
+.bglight {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.section-title {
+  display: none;
+}
+
+.bglightness {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+article {
+  display: inline-block;
+}
